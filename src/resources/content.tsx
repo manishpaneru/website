@@ -11,7 +11,7 @@ const person: Person = {
   firstName: "Jay Prasad",
   lastName: "Majhi",
   name: `Jay Prasad Majhi`,
-  role: "Front-End Developer, Cybersecurity & IT Professional",
+  role: "Full-Stack Developer, Cybersecurity & IT Professional",
   avatar: "/images/avatar.jpeg",
   email: "admin@jayprasad.com.np",
   location: "Asia/Kathmandu", // IANA time zone for Nepal
@@ -60,8 +60,8 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Full-Stack Developer`,
   description: `Front-End Developer${person.role}`,
-  headline: <>Front-End Developer, Cybersecurity & IT Professional</>,
-  headline: <>Front-End Developer, Cybersecurity & IT Professional</>,
+  headline: <>Full-Stack Developer, Cybersecurity & IT Professional</>,
+  headline: <>Full-Stack Developer, Cybersecurity & IT Professionall</>,
   featured: {
     display: false,
     title: <></>,
