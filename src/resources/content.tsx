@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Jay Prasad",
   lastName: "Majhi",
   name: `Jay Prasad Majhi`,
-  role: "Front-End Developer, Cybersecurity & IT Professional",
+  role: "Full-Stack Developer, Cybersecurity & IT Professional",
   avatar: "/images/avatar.jpeg",
   email: "admin@jayprasad.com.np",
   firstName: "Jay Prasad",
@@ -58,7 +58,7 @@ const home: Home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `${person.name}'s Full-Stack Developer`,
   description: `Front-End Developer${person.role}`,
   headline: <>Front-End Developer, Cybersecurity & IT Professional</>,
   headline: <>Front-End Developer, Cybersecurity & IT Professional</>,
@@ -69,9 +69,10 @@ const home: Home = {
   },
   subline: (
     <>
-      A dedicated and results-oriented professional with a unique blend of experience in both the
-      education and technology sectors. I bridge the gap between student aspirations and academic
-      opportunities while ensuring the security and integrity of digital infrastructures.
+      Dual-qualified professional with 3+ years of experience in admissions, visa processing, financial documentation, and IT support.
+Certified in Cybersecurity (CC), CompTIA CYSA+, and Microsoft Azure Fundamentals. Skilled in Salesforce CRM, student
+documentation, account reconciliation, and network security. Seeking to leverage business operations and IT expertise in a
+challenging role.
     </>
   ),
 };
@@ -97,18 +98,12 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        I am a dedicated and results-oriented professional with a unique blend of experience in
-        both the education and technology sectors. As an Admission Officer, I excel at guiding
-        prospective students through the complexities of the university admission process,
-        providing them with the information and support they need to make informed decisions about
-        their academic future. My background in Cybersecurity and IT allows me to contribute to the
-        security and efficiency of our digital infrastructure, ensuring a safe and seamless
-        experience for both students and staff. I am passionate about leveraging my dual expertise
-        to create a positive and secure environment that fosters educational growth and success.
+        Dual-qualified professional with 3+ years of experience in admissions, visa processing, financial documentation, and IT support.
+Certified in Cybersecurity (CC), CompTIA CYSA+, and Microsoft Azure Fundamentals. Skilled in Salesforce CRM, student
+documentation, account reconciliation, and network security. Seeking to leverage business operations and IT expertise in a
+challenging role.
         <br />
-        <br />
-        Interests: Traveling, Photography, Public Speaking, and engaging in CTF (Capture The Flag)
-        competitions.
+        Interests: Technology, Tech Enthusiast, Tech Communities, Coding, Travel, Listening Music, Tech Gadgets
       </>
     ),
   },
@@ -118,7 +113,7 @@ const about: About = {
     experiences: [
       {
         company: "Oli & Associates Pvt. Ltd",
-        timeframe: "Feb 2024 - Present",
+        timeframe: "2022 - Present",
         role: "Admission Officer",
         achievements: [
           <>Assisted students with university and course selection.</>,
@@ -136,7 +131,7 @@ const about: About = {
       },
       {
         company: "Sagarmatha Teens Club",
-        timeframe: "Nov 2018 - Jan 2024",
+        timeframe: "Nov 2018 - October 2021",
         role: "Vice President",
         achievements: [
           <>Led various social initiatives and community service projects.</>,
@@ -159,15 +154,15 @@ const about: About = {
     title: "Education & Certifications",
     institutions: [
       {
-        name: "Sunway International Business School",
-        description: <>Bachelor of Business Studies</>,
+        name: "Mechi Multiple Campus(Tribhuvan Universit)",
+        description: <>Bachelor of Business Studies-Running</>,
       },
       {
-        name: "Koshi Saint James Secondary School",
+        name: "National Education Boar(NEB)",
         description: <>High School</>,
       },
       {
-        name: "Sagarmatha Secondary School",
+        name: "National Education Boar(NEB)",
         description: <>School Leaving Certificate</>,
       },
       {
